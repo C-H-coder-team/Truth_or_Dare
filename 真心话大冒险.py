@@ -23,8 +23,9 @@ def start():
     if b==9:
         print("不写作业")
 if a=="是":
-    b=random.randint(1,9)
-    start()
+    while True:
+        b=random.randint(1,9)
+        start()
 
     
     
